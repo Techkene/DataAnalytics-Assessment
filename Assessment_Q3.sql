@@ -1,19 +1,3 @@
-/*
-Account Inactivity Alert
-Scenario: The ops team wants to flag accounts with no inflow transactions for over one year.
-Task: Find all active accounts (savings or investments) with no transactions in the last 1 year (365 days) .
-Tables:
-plans_plan
-savings_savingsaccount
-
-Expected result should have these columns
-plan_id
-owner_id
-type
-last_transaction_date
-inactivity_days
-*/
-
 SELECT
     p.id AS plan_id,
     p.owner_id,

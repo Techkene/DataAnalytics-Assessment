@@ -1,20 +1,3 @@
-/*
-2. Transaction Frequency Analysis
-Scenario: The finance team wants to analyze how often customers transact to segment them (e.g., frequent vs. occasional users).
-Task: Calculate the average number of transactions per customer per month and categorize them:
-"High Frequency" (≥10 transactions/month)
-"Medium Frequency" (3-9 transactions/month)
-"Low Frequency" (≤2 transactions/month)
-Tables:
-users_customuser
-savings_savingsaccount
-
-Expected result should have these columns
-frequency_category
-customer_count
-avg_transactions_per_month
-*/
-
 WITH monthly_transactions AS (
     SELECT
         s.owner_id,
