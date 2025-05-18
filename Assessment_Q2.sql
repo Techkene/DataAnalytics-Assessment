@@ -9,7 +9,7 @@ Tables:
 users_customuser
 savings_savingsaccount
 
-Expected columns
+Expected result should have these columns
 frequency_category
 customer_count
 avg_transactions_per_month
